@@ -1,0 +1,4 @@
+module leveldb {
+umbrella "/Users/student/Library/Developer/Xcode/DerivedData/StudentGarage1-dkziwqwchemuccglaostwdawsifj/SourcePackages/checkouts/leveldb/include"
+export *
+}

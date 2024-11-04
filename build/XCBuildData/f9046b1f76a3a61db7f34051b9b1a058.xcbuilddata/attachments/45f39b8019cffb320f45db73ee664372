@@ -1,0 +1,4 @@
+module GTMSessionFetcherCore {
+umbrella "/Users/student/Library/Developer/Xcode/DerivedData/StudentGarage1-dkziwqwchemuccglaostwdawsifj/SourcePackages/checkouts/gtm-session-fetcher/Sources/Core/Public"
+export *
+}

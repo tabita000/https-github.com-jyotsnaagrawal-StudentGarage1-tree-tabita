@@ -1,0 +1,4 @@
+module AppAuthCore {
+umbrella "/Users/student/Library/Developer/Xcode/DerivedData/StudentGarage1-dkziwqwchemuccglaostwdawsifj/SourcePackages/checkouts/AppAuth-iOS/Sources/AppAuthCore"
+export *
+}

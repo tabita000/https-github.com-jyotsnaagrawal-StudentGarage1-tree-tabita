@@ -1,0 +1,4 @@
+module grpcWrapper {
+umbrella "/Users/student/Library/Developer/Xcode/DerivedData/StudentGarage1-dkziwqwchemuccglaostwdawsifj/SourcePackages/checkouts/grpc-binary/grpc-Wrapper/include"
+export *
+}

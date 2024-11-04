@@ -1,0 +1,28 @@
+{
+  "" : {
+    "diagnostics" : "/Users/student/Desktop/Fall Classes 2024/Ios/StudentGarage1/build/StudentGarage1.build/Debug-iphonesimulator/StudentGarage1UITests.build/Objects-normal/x86_64/StudentGarage1UITests-master.dia",
+    "emit-module-dependencies" : "/Users/student/Desktop/Fall Classes 2024/Ios/StudentGarage1/build/StudentGarage1.build/Debug-iphonesimulator/StudentGarage1UITests.build/Objects-normal/x86_64/StudentGarage1UITests-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/student/Desktop/Fall Classes 2024/Ios/StudentGarage1/build/StudentGarage1.build/Debug-iphonesimulator/StudentGarage1UITests.build/Objects-normal/x86_64/StudentGarage1UITests-master-emit-module.dia",
+    "swift-dependencies" : "/Users/student/Desktop/Fall Classes 2024/Ios/StudentGarage1/build/StudentGarage1.build/Debug-iphonesimulator/StudentGarage1UITests.build/Objects-normal/x86_64/StudentGarage1UITests-master.swiftdeps"
+  },
+  "/Users/student/Desktop/Fall Classes 2024/Ios/StudentGarage1/StudentGarage1UITests/StudentGarage1UITests.swift" : {
+    "const-values" : "/Users/student/Desktop/Fall Classes 2024/Ios/StudentGarage1/build/StudentGarage1.build/Debug-iphonesimulator/StudentGarage1UITests.build/Objects-normal/x86_64/StudentGarage1UITests.swiftconstvalues",
+    "dependencies" : "/Users/student/Desktop/Fall Classes 2024/Ios/StudentGarage1/build/StudentGarage1.build/Debug-iphonesimulator/StudentGarage1UITests.build/Objects-normal/x86_64/StudentGarage1UITests.d",
+    "diagnostics" : "/Users/student/Desktop/Fall Classes 2024/Ios/StudentGarage1/build/StudentGarage1.build/Debug-iphonesimulator/StudentGarage1UITests.build/Objects-normal/x86_64/StudentGarage1UITests.dia",
+    "index-unit-output-path" : "/StudentGarage1.build/Debug-iphonesimulator/StudentGarage1UITests.build/Objects-normal/x86_64/StudentGarage1UITests.o",
+    "llvm-bc" : "/Users/student/Desktop/Fall Classes 2024/Ios/StudentGarage1/build/StudentGarage1.build/Debug-iphonesimulator/StudentGarage1UITests.build/Objects-normal/x86_64/StudentGarage1UITests.bc",
+    "object" : "/Users/student/Desktop/Fall Classes 2024/Ios/StudentGarage1/build/StudentGarage1.build/Debug-iphonesimulator/StudentGarage1UITests.build/Objects-normal/x86_64/StudentGarage1UITests.o",
+    "swift-dependencies" : "/Users/student/Desktop/Fall Classes 2024/Ios/StudentGarage1/build/StudentGarage1.build/Debug-iphonesimulator/StudentGarage1UITests.build/Objects-normal/x86_64/StudentGarage1UITests.swiftdeps",
+    "swiftmodule" : "/Users/student/Desktop/Fall Classes 2024/Ios/StudentGarage1/build/StudentGarage1.build/Debug-iphonesimulator/StudentGarage1UITests.build/Objects-normal/x86_64/StudentGarage1UITests~partial.swiftmodule"
+  },
+  "/Users/student/Desktop/Fall Classes 2024/Ios/StudentGarage1/StudentGarage1UITests/StudentGarage1UITestsLaunchTests.swift" : {
+    "const-values" : "/Users/student/Desktop/Fall Classes 2024/Ios/StudentGarage1/build/StudentGarage1.build/Debug-iphonesimulator/StudentGarage1UITests.build/Objects-normal/x86_64/StudentGarage1UITestsLaunchTests.swiftconstvalues",
+    "dependencies" : "/Users/student/Desktop/Fall Classes 2024/Ios/StudentGarage1/build/StudentGarage1.build/Debug-iphonesimulator/StudentGarage1UITests.build/Objects-normal/x86_64/StudentGarage1UITestsLaunchTests.d",
+    "diagnostics" : "/Users/student/Desktop/Fall Classes 2024/Ios/StudentGarage1/build/StudentGarage1.build/Debug-iphonesimulator/StudentGarage1UITests.build/Objects-normal/x86_64/StudentGarage1UITestsLaunchTests.dia",
+    "index-unit-output-path" : "/StudentGarage1.build/Debug-iphonesimulator/StudentGarage1UITests.build/Objects-normal/x86_64/StudentGarage1UITestsLaunchTests.o",
+    "llvm-bc" : "/Users/student/Desktop/Fall Classes 2024/Ios/StudentGarage1/build/StudentGarage1.build/Debug-iphonesimulator/StudentGarage1UITests.build/Objects-normal/x86_64/StudentGarage1UITestsLaunchTests.bc",
+    "object" : "/Users/student/Desktop/Fall Classes 2024/Ios/StudentGarage1/build/StudentGarage1.build/Debug-iphonesimulator/StudentGarage1UITests.build/Objects-normal/x86_64/StudentGarage1UITestsLaunchTests.o",
+    "swift-dependencies" : "/Users/student/Desktop/Fall Classes 2024/Ios/StudentGarage1/build/StudentGarage1.build/Debug-iphonesimulator/StudentGarage1UITests.build/Objects-normal/x86_64/StudentGarage1UITestsLaunchTests.swiftdeps",
+    "swiftmodule" : "/Users/student/Desktop/Fall Classes 2024/Ios/StudentGarage1/build/StudentGarage1.build/Debug-iphonesimulator/StudentGarage1UITests.build/Objects-normal/x86_64/StudentGarage1UITestsLaunchTests~partial.swiftmodule"
+  }
+}

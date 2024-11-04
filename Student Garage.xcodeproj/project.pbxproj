@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22EAD7732CD1F24000EC2AB6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22EAD7722CD1F24000EC2AB6 /* GoogleService-Info.plist */; };
+		3F246E7F2CB4167F000DE312 /* AdminDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F246E7E2CB4167F000DE312 /* AdminDashboardView.swift */; };
+		3F246E822CB419D4000DE312 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 3F246E812CB419D4000DE312 /* FirebaseFirestore */; };
+		3F3F52F72CCD3ED400DFB815 /* SupportFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3F52F62CCD3ED300DFB815 /* SupportFormView.swift */; };
+		3F3F52FA2CCD73AA00DFB815 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 3F3F52F92CCD73AA00DFB815 /* GoogleSignIn */; };
+		3F3F52FC2CCD73AA00DFB815 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3F3F52FB2CCD73AA00DFB815 /* GoogleSignInSwift */; };
+		3F3F530C2CCD842A00DFB815 /* UserAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3F530B2CCD842A00DFB815 /* UserAccountView.swift */; };
+		3F3F530E2CCD846200DFB815 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3F530D2CCD846200DFB815 /* SettingsView.swift */; };
+		3F561F0D2CAA1C61003F5BB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F561F0C2CAA1C61003F5BB0 /* Assets.xcassets */; };
+		3F561F1A2CAA1C62003F5BB0 /* StudentGarage1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F561F192CAA1C62003F5BB0 /* StudentGarage1Tests.swift */; };
+		3F561F242CAA1C63003F5BB0 /* StudentGarage1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F561F232CAA1C63003F5BB0 /* StudentGarage1UITests.swift */; };
+		3F561F262CAA1C63003F5BB0 /* StudentGarage1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F561F252CAA1C63003F5BB0 /* StudentGarage1UITestsLaunchTests.swift */; };
+		3F561F332CAA1CC4003F5BB0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F561F322CAA1CC4003F5BB0 /* LoginView.swift */; };
+		3F561F382CAA1DDF003F5BB0 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3F561F372CAA1DDF003F5BB0 /* FirebaseAuth */; };
+		3F561F3A2CAA1DDF003F5BB0 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 3F561F392CAA1DDF003F5BB0 /* FirebaseDatabase */; };
+		3F561F3C2CAA238C003F5BB0 /* CustomCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F561F3B2CAA238C003F5BB0 /* CustomCalendarView.swift */; };
+		3F561F3E2CAA23AE003F5BB0 /* BookingFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F561F3D2CAA23AE003F5BB0 /* BookingFormView.swift */; };
+		3F561F402CAA55B3003F5BB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F561F3F2CAA55B3003F5BB0 /* AppDelegate.swift */; };
+		3F561F422CAAE3F8003F5BB0 /* FirebaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F561F412CAAE3F8003F5BB0 /* FirebaseHelper.swift */; };
+		3FCC0DCA2CBBAC6300A37FE6 /* BookingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCC0DC92CBBAC6300A37FE6 /* BookingDetailView.swift */; };
+		3FFB77852CCB50EC001C1CAC /* carVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3FFB777D2CCACBA1001C1CAC /* carVideo.mp4 */; };
+		3FFB77872CCB54A0001C1CAC /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB77862CCB54A0001C1CAC /* MainTabView.swift */; };
+		3FFB77882CCB6491001C1CAC /* StudentGarage1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F561F082CAA1C5E003F5BB0 /* StudentGarage1App.swift */; };
+		3FFB778A2CCBFB21001C1CAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FFB77892CCBFB21001C1CAC /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		3F3F53152CCD8E1C00DFB815 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = file.bplist;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# builtin-copyPlist\n";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXContainerItemProxy section */
+		3F561F162CAA1C62003F5BB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F561EFD2CAA1C5E003F5BB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F561F042CAA1C5E003F5BB0;
+			remoteInfo = StudentGarage1;
+		};
+		3F561F202CAA1C63003F5BB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F561EFD2CAA1C5E003F5BB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F561F042CAA1C5E003F5BB0;
+			remoteInfo = StudentGarage1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22EAD7722CD1F24000EC2AB6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		22EAD7742CD28CFF00EC2AB6 /* StudentGarage1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StudentGarage1.entitlements; sourceTree = "<group>"; };
+		22EAD7792CD7E87B00EC2AB6 /* Student-Garage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Student-Garage-Info.plist"; sourceTree = "<group>"; };
+		3F246E7E2CB4167F000DE312 /* AdminDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminDashboardView.swift; sourceTree = "<group>"; };
+		3F3F52F62CCD3ED300DFB815 /* SupportFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportFormView.swift; sourceTree = "<group>"; };
+		3F3F53082CCD83FE00DFB815 /* Student Garage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Student Garage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3F53092CCD83FE00DFB815 /* Student GarageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Student GarageTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3F530A2CCD83FE00DFB815 /* Student GarageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Student GarageUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3F530B2CCD842A00DFB815 /* UserAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountView.swift; sourceTree = "<group>"; };
+		3F3F530D2CCD846200DFB815 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3F561F082CAA1C5E003F5BB0 /* StudentGarage1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentGarage1App.swift; sourceTree = "<group>"; };
+		3F561F0C2CAA1C61003F5BB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F561F192CAA1C62003F5BB0 /* StudentGarage1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentGarage1Tests.swift; sourceTree = "<group>"; };
+		3F561F232CAA1C63003F5BB0 /* StudentGarage1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentGarage1UITests.swift; sourceTree = "<group>"; };
+		3F561F252CAA1C63003F5BB0 /* StudentGarage1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentGarage1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F561F322CAA1CC4003F5BB0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3F561F3B2CAA238C003F5BB0 /* CustomCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCalendarView.swift; sourceTree = "<group>"; };
+		3F561F3D2CAA23AE003F5BB0 /* BookingFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingFormView.swift; sourceTree = "<group>"; };
+		3F561F3F2CAA55B3003F5BB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F561F412CAAE3F8003F5BB0 /* FirebaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseHelper.swift; sourceTree = "<group>"; };
+		3FCC0DC92CBBAC6300A37FE6 /* BookingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingDetailView.swift; sourceTree = "<group>"; };
+		3FFB777D2CCACBA1001C1CAC /* carVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = carVideo.mp4; sourceTree = "<group>"; };
+		3FFB77862CCB54A0001C1CAC /* MainTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		3FFB77892CCBFB21001C1CAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F561F022CAA1C5E003F5BB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3F52FC2CCD73AA00DFB815 /* GoogleSignInSwift in Frameworks */,
+				3F561F3A2CAA1DDF003F5BB0 /* FirebaseDatabase in Frameworks */,
+				3F3F52FA2CCD73AA00DFB815 /* GoogleSignIn in Frameworks */,
+				3F561F382CAA1DDF003F5BB0 /* FirebaseAuth in Frameworks */,
+				3F246E822CB419D4000DE312 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F561F122CAA1C62003F5BB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F561F1C2CAA1C63003F5BB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F561EFC2CAA1C5E003F5BB0 = {
+			isa = PBXGroup;
+			children = (
+				22EAD7792CD7E87B00EC2AB6 /* Student-Garage-Info.plist */,
+				3FFB777D2CCACBA1001C1CAC /* carVideo.mp4 */,
+				3F561F072CAA1C5E003F5BB0 /* StudentGarage1 */,
+				3F561F182CAA1C62003F5BB0 /* StudentGarage1Tests */,
+				3F561F222CAA1C63003F5BB0 /* StudentGarage1UITests */,
+				3F3F53082CCD83FE00DFB815 /* Student Garage.app */,
+				3F3F53092CCD83FE00DFB815 /* Student GarageTests.xctest */,
+				3F3F530A2CCD83FE00DFB815 /* Student GarageUITests.xctest */,
+			);
+			sourceTree = "<group>";
+		};
+		3F561F072CAA1C5E003F5BB0 /* StudentGarage1 */ = {
+			isa = PBXGroup;
+			children = (
+				22EAD7742CD28CFF00EC2AB6 /* StudentGarage1.entitlements */,
+				3F561F082CAA1C5E003F5BB0 /* StudentGarage1App.swift */,
+				3F561F3F2CAA55B3003F5BB0 /* AppDelegate.swift */,
+				22EAD7722CD1F24000EC2AB6 /* GoogleService-Info.plist */,
+				3F561F0C2CAA1C61003F5BB0 /* Assets.xcassets */,
+				3F561F0E2CAA1C61003F5BB0 /* Preview Content */,
+				3F561F322CAA1CC4003F5BB0 /* LoginView.swift */,
+				3FFB77862CCB54A0001C1CAC /* MainTabView.swift */,
+				3F561F3B2CAA238C003F5BB0 /* CustomCalendarView.swift */,
+				3F561F3D2CAA23AE003F5BB0 /* BookingFormView.swift */,
+				3F561F412CAAE3F8003F5BB0 /* FirebaseHelper.swift */,
+				3F246E7E2CB4167F000DE312 /* AdminDashboardView.swift */,
+				3FCC0DC92CBBAC6300A37FE6 /* BookingDetailView.swift */,
+				3F3F52F62CCD3ED300DFB815 /* SupportFormView.swift */,
+				3F3F530B2CCD842A00DFB815 /* UserAccountView.swift */,
+				3F3F530D2CCD846200DFB815 /* SettingsView.swift */,
+			);
+			path = StudentGarage1;
+			sourceTree = "<group>";
+		};
+		3F561F0E2CAA1C61003F5BB0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3FFB77892CCBFB21001C1CAC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3F561F182CAA1C62003F5BB0 /* StudentGarage1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3F561F192CAA1C62003F5BB0 /* StudentGarage1Tests.swift */,
+			);
+			path = StudentGarage1Tests;
+			sourceTree = "<group>";
+		};
+		3F561F222CAA1C63003F5BB0 /* StudentGarage1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F561F232CAA1C63003F5BB0 /* StudentGarage1UITests.swift */,
+				3F561F252CAA1C63003F5BB0 /* StudentGarage1UITestsLaunchTests.swift */,
+			);
+			path = StudentGarage1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F561F042CAA1C5E003F5BB0 /* Student Garage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F561F292CAA1C63003F5BB0 /* Build configuration list for PBXNativeTarget "Student Garage" */;
+			buildPhases = (
+				3F561F012CAA1C5E003F5BB0 /* Sources */,
+				3F561F022CAA1C5E003F5BB0 /* Frameworks */,
+				3F561F032CAA1C5E003F5BB0 /* Resources */,
+			);
+			buildRules = (
+				3F3F53152CCD8E1C00DFB815 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = "Student Garage";
+			packageProductDependencies = (
+				3F561F372CAA1DDF003F5BB0 /* FirebaseAuth */,
+				3F561F392CAA1DDF003F5BB0 /* FirebaseDatabase */,
+				3F246E812CB419D4000DE312 /* FirebaseFirestore */,
+				3F3F52F92CCD73AA00DFB815 /* GoogleSignIn */,
+				3F3F52FB2CCD73AA00DFB815 /* GoogleSignInSwift */,
+			);
+			productName = StudentGarage1;
+			productReference = 3F3F53082CCD83FE00DFB815 /* Student Garage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F561F142CAA1C62003F5BB0 /* Student GarageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F561F2C2CAA1C63003F5BB0 /* Build configuration list for PBXNativeTarget "Student GarageTests" */;
+			buildPhases = (
+				3F561F112CAA1C62003F5BB0 /* Sources */,
+				3F561F122CAA1C62003F5BB0 /* Frameworks */,
+				3F561F132CAA1C62003F5BB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F561F172CAA1C62003F5BB0 /* PBXTargetDependency */,
+			);
+			name = "Student GarageTests";
+			productName = StudentGarage1Tests;
+			productReference = 3F3F53092CCD83FE00DFB815 /* Student GarageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F561F1E2CAA1C63003F5BB0 /* Student GarageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F561F2F2CAA1C63003F5BB0 /* Build configuration list for PBXNativeTarget "Student GarageUITests" */;
+			buildPhases = (
+				3F561F1B2CAA1C63003F5BB0 /* Sources */,
+				3F561F1C2CAA1C63003F5BB0 /* Frameworks */,
+				3F561F1D2CAA1C63003F5BB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F561F212CAA1C63003F5BB0 /* PBXTargetDependency */,
+			);
+			name = "Student GarageUITests";
+			productName = StudentGarage1UITests;
+			productReference = 3F3F530A2CCD83FE00DFB815 /* Student GarageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F561EFD2CAA1C5E003F5BB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					3F561F042CAA1C5E003F5BB0 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					3F561F142CAA1C62003F5BB0 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3F561F042CAA1C5E003F5BB0;
+					};
+					3F561F1E2CAA1C63003F5BB0 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3F561F042CAA1C5E003F5BB0;
+					};
+				};
+			};
+			buildConfigurationList = 3F561F002CAA1C5E003F5BB0 /* Build configuration list for PBXProject "Student Garage" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F561EFC2CAA1C5E003F5BB0;
+			packageReferences = (
+				3F561F362CAA1DDF003F5BB0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				3F3F52F82CCD73AA00DFB815 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			productRefGroup = 3F561EFC2CAA1C5E003F5BB0;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F561F042CAA1C5E003F5BB0 /* Student Garage */,
+				3F561F142CAA1C62003F5BB0 /* Student GarageTests */,
+				3F561F1E2CAA1C63003F5BB0 /* Student GarageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F561F032CAA1C5E003F5BB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFB77852CCB50EC001C1CAC /* carVideo.mp4 in Resources */,
+				22EAD7732CD1F24000EC2AB6 /* GoogleService-Info.plist in Resources */,
+				3FFB778A2CCBFB21001C1CAC /* Preview Assets.xcassets in Resources */,
+				3F561F0D2CAA1C61003F5BB0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F561F132CAA1C62003F5BB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F561F1D2CAA1C63003F5BB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F561F012CAA1C5E003F5BB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F561F402CAA55B3003F5BB0 /* AppDelegate.swift in Sources */,
+				3F3F52F72CCD3ED400DFB815 /* SupportFormView.swift in Sources */,
+				3FFB77882CCB6491001C1CAC /* StudentGarage1App.swift in Sources */,
+				3FCC0DCA2CBBAC6300A37FE6 /* BookingDetailView.swift in Sources */,
+				3FFB77872CCB54A0001C1CAC /* MainTabView.swift in Sources */,
+				3F561F332CAA1CC4003F5BB0 /* LoginView.swift in Sources */,
+				3F561F3E2CAA23AE003F5BB0 /* BookingFormView.swift in Sources */,
+				3F561F422CAAE3F8003F5BB0 /* FirebaseHelper.swift in Sources */,
+				3F561F3C2CAA238C003F5BB0 /* CustomCalendarView.swift in Sources */,
+				3F3F530E2CCD846200DFB815 /* SettingsView.swift in Sources */,
+				3F3F530C2CCD842A00DFB815 /* UserAccountView.swift in Sources */,
+				3F246E7F2CB4167F000DE312 /* AdminDashboardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F561F112CAA1C62003F5BB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F561F1A2CAA1C62003F5BB0 /* StudentGarage1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F561F1B2CAA1C63003F5BB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F561F242CAA1C63003F5BB0 /* StudentGarage1UITests.swift in Sources */,
+				3F561F262CAA1C63003F5BB0 /* StudentGarage1UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F561F172CAA1C62003F5BB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F561F042CAA1C5E003F5BB0 /* Student Garage */;
+			targetProxy = 3F561F162CAA1C62003F5BB0 /* PBXContainerItemProxy */;
+		};
+		3F561F212CAA1C63003F5BB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F561F042CAA1C5E003F5BB0 /* Student Garage */;
+			targetProxy = 3F561F202CAA1C63003F5BB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F561F272CAA1C63003F5BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F561F282CAA1C63003F5BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F561F2A2CAA1C63003F5BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StudentGarage1/StudentGarage1.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StudentGarage1/Preview Content\"";
+				DEVELOPMENT_TEAM = T44788J83Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Student-Garage-Info.plist";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This app requires tracking permission to deliver personalized content.\nThis app requires tracking permission to deliver personalized content.\n";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tabita.StudentGarage1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F561F2B2CAA1C63003F5BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StudentGarage1/StudentGarage1.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StudentGarage1/Preview Content\"";
+				DEVELOPMENT_TEAM = T44788J83Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Student-Garage-Info.plist";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This app requires tracking permission to deliver personalized content.\nThis app requires tracking permission to deliver personalized content.\n";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tabita.StudentGarage1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F561F2D2CAA1C63003F5BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Q4BXN3F7B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jyotsna.StudentGarage1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Student Garage.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Student Garage";
+			};
+			name = Debug;
+		};
+		3F561F2E2CAA1C63003F5BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Q4BXN3F7B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jyotsna.StudentGarage1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Student Garage.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Student Garage";
+			};
+			name = Release;
+		};
+		3F561F302CAA1C63003F5BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Q4BXN3F7B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jyotsna.StudentGarage1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StudentGarage1;
+			};
+			name = Debug;
+		};
+		3F561F312CAA1C63003F5BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Q4BXN3F7B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jyotsna.StudentGarage1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StudentGarage1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F561F002CAA1C5E003F5BB0 /* Build configuration list for PBXProject "Student Garage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F561F272CAA1C63003F5BB0 /* Debug */,
+				3F561F282CAA1C63003F5BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F561F292CAA1C63003F5BB0 /* Build configuration list for PBXNativeTarget "Student Garage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F561F2A2CAA1C63003F5BB0 /* Debug */,
+				3F561F2B2CAA1C63003F5BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F561F2C2CAA1C63003F5BB0 /* Build configuration list for PBXNativeTarget "Student GarageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F561F2D2CAA1C63003F5BB0 /* Debug */,
+				3F561F2E2CAA1C63003F5BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F561F2F2CAA1C63003F5BB0 /* Build configuration list for PBXNativeTarget "Student GarageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F561F302CAA1C63003F5BB0 /* Debug */,
+				3F561F312CAA1C63003F5BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3F3F52F82CCD73AA00DFB815 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		3F561F362CAA1DDF003F5BB0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3F246E812CB419D4000DE312 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F561F362CAA1DDF003F5BB0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		3F3F52F92CCD73AA00DFB815 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F3F52F82CCD73AA00DFB815 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		3F3F52FB2CCD73AA00DFB815 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F3F52F82CCD73AA00DFB815 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		3F561F372CAA1DDF003F5BB0 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F561F362CAA1DDF003F5BB0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		3F561F392CAA1DDF003F5BB0 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F561F362CAA1DDF003F5BB0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3F561EFD2CAA1C5E003F5BB0 /* Project object */;
+}
