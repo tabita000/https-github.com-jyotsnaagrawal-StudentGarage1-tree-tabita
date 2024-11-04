@@ -1,6 +1,6 @@
 //
 //  StudentGarage1App.swift
-//  StudentGarage1
+//  
 //
 //  Created by student on 9/29/24.
 //
